@@ -1,7 +1,11 @@
-public class ServicePerson {
-    public void savePerson(Person person) {
-        MySql mysql = new MySql();
-        mysql.savePerson(person);
+public class ServicePerson{
+    private PersonStorage personStorage;
+
+    public ServicePerson(PersonStorage personStorage) {
+        this.personStorage = personStorage;
     }
 
+    public void savePerson(Person person) {
+        personStorage.savePerson(person);
+    }
 }
