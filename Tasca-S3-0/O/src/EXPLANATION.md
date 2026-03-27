@@ -8,7 +8,7 @@ Aquí tienes la explicación clara en **Markdown y en inglés**:
 
 The original implementation used a series of `if-else` statements to determine which instrument to play based on a `String` value.
 
-```java
+```
 if ("guitar".equals(instrument)) {
     ...
 } else if ("drums".equals(instrument)) {
