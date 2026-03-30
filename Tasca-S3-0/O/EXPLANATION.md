@@ -1,10 +1,8 @@
 # 🧩• Exercise - S`O`LID (Open/Closed Principle)
 
-Aquí tienes la explicación clara en **Markdown y en inglés**:
-
 ---
 
-## 1. What was wrong?
+## 1. ❌ What was wrong?
 
 The original implementation used a series of `if-else` statements to determine which instrument to play based on a `String` value.
 
@@ -20,7 +18,7 @@ This approach tightly couples the `InstrumentPlayer` class with all possible ins
 
 ---
 
-## 2. Why did it violate the Open/Closed Principle?
+## 2. ⚠️ Why did it violate the Open/Closed Principle?
 
 The **Open/Closed Principle (OCP)** states that:
 
@@ -34,7 +32,7 @@ The original code violates this principle because:
 
 ---
 
-## 3. What solution was applied and why?
+## 3. ✅ What solution was applied and why?
 
 To fix this, we applied **polymorphism** and introduced an abstraction:
 
