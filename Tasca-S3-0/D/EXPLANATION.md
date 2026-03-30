@@ -1,4 +1,4 @@
-# 🧩• Exercise - SOLI`D` (Dependency Inversion)
+# 🧩• Exercise - SOLI`D` (Dependency Inversion Principle)
 
 ---
 
@@ -60,7 +60,3 @@ The solution was to introduce an abstraction and apply dependency injection:
 ```
 High-level module → Abstraction ← Low-level module
 ```
-
----
-
-✅ The result is a more flexible, maintainable, and scalable design aligned with SOLID principles.
