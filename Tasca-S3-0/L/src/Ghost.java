@@ -1,11 +1,10 @@
 public class Ghost extends Character {
-    @Override
-    public void attack() {
-        System.out.println("The ghost casts a spooky spell.");
+    public Ghost() {
+        super(new NoPhysicalDamage());
     }
 
     @Override
-    public void takeDamage(int points) {
-        throw new UnsupportedOperationException("A ghost cannot take physical damage!");
+    public void attack() {
+        System.out.println("The ghost casts a spooky spell.");
     }
 }
