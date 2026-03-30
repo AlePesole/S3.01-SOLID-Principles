@@ -1,3 +1,5 @@
+package old;
+
 public interface MachineActions {
     void turnOn();
     void turnOff();
